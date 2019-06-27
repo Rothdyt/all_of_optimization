@@ -1,0 +1,4 @@
+# Part I: Nonlinear Optimization {-}
+In this part, we will cover the topics including:
+
+- Gradient Descent

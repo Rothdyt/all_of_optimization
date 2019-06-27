@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1561615546033.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D5CAFCEB",
+    "lastKnownWriteTime" : 1561606474,
+    "last_content_update" : 1561606474,
+    "path" : "~/Documents/all_of_optimization/0part1/01-Pre.Rmd",
+    "project_path" : "0part1/01-Pre.Rmd",
+    "properties" : {
+        "cursorPosition" : "3,18",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
