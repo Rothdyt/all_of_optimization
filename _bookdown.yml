@@ -2,6 +2,7 @@ book_filename: "all_of_optimization"
 new_session: no
 delete_merged_file: false
 rmd_subdir: ['0part1/','1appendix/']
+output_dir: "_book"
 language:
   ui:
     chapter_name: "Chapter "

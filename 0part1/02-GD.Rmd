@@ -1,3 +1,7 @@
 # Gradient Descent
 
-test
+## Stepsize
+
+### Lipschiyz Continuity
+
+**Best stepsize for Strongly convex function**

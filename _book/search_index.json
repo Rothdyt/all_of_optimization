@@ -1,8 +1,8 @@
 [
 ["index.html", "All of Optimization Premable", " All of Optimization Author: Dai, Yutong Last Update: 2019-06-27 Premable This book servers to document all topics relevant to optimization. "],
 ["part-i-nonlinear-optimization.html", "Part I: Nonlinear Optimization", " Part I: Nonlinear Optimization In this part, we will cover the topics including: Gradient Descent "],
-["gradient-descent.html", "Chapter 1 Gradient Descent", " Chapter 1 Gradient Descent test "],
+["gradient-descent.html", "Chapter 1 Gradient Descent 1.1 Stepsize", " Chapter 1 Gradient Descent 1.1 Stepsize 1.1.1 Lipschiyz Continuity Best stepsize for Strongly convex function "],
 ["part-v-appendix.html", "Part V: Appendix", " Part V: Appendix Necessary appendix. "],
-["appendix-a-mathematical-backgrounds.html", "Chapter 2 Appendix A: Mathematical Backgrounds", " Chapter 2 Appendix A: Mathematical Backgrounds We will review all necessary mathematical backgrounds here. "],
-["appendix-b-python-tricks.html", "Chapter 3 Appendix B: Python Tricks", " Chapter 3 Appendix B: Python Tricks test "]
+["mathematical-backgrounds.html", "Chapter 2 Mathematical Backgrounds", " Chapter 2 Mathematical Backgrounds We will review all necessary mathematical backgrounds here. "],
+["efficient-algorithm-implementation.html", "Chapter 3 Efficient Algorithm Implementation 3.1 test", " Chapter 3 Efficient Algorithm Implementation 3.1 test "]
 ]
