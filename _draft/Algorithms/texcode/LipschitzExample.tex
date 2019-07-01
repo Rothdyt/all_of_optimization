@@ -1,0 +1,21 @@
+\documentclass[12pt,fleqn]{standalone} 
+\usepackage{bm}
+ 
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tkz-linknodes}
+\usepackage{tikz,pgfplots}
+\pgfplotsset{compat=1.14}
+\usetikzlibrary{arrows,shapes,intersections,angles,calc,quotes,through,decorations.text}
+ 
+\begin{document}
+
+\begin{tikzpicture}[yscale=0.8]
+\draw[thick,->] (-3,0) -- (3,0) node[right] {$x$};
+\draw[thick,->] (0,-5) -- (0,5) node[right] {$y$};
+\draw (0,0) node[below left] {O};
+\draw [red!80,domain=-2.2:2.2] plot (\x, {\x * abs(\x)})  node[black, bottom] {$y=x|x|$};
+
+\end{tikzpicture}
+
+\end{document}
