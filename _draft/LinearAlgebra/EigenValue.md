@@ -19,7 +19,7 @@ $$
 $$
 
 
-![ellipse](../utils/ellipse.png)
+![ellipse](./utils/ellipse.png)
 
 This transformation derived by 
 $$
