@@ -23,10 +23,10 @@ $$
 & z_i =\beta_0+\beta^Tx_i.
 \end{aligned}
 $$
-If we use the first formulation, then it is equivalent to minimize the log-negative of $L(\beta_0,\beta)$,
+Then it is equivalent to minimize the log-negative of $L(\beta_0,\beta)$,
 $$
 \begin{aligned}
-\min_{\beta_0,\beta}l(\beta_0,\beta)=\frac{1}{N}\sum_{i=1}^N[-y_iz_i+\log(1+e^{z_i})].
+\min_{\beta_0,\beta}l(\beta_0,\beta)=\frac{1}{N}\sum_{i=1}^N\log(1+e^{-y_iz_i}).
 \end{aligned}
 $$
 From now on,  for the sake of simplicity, we drop the intercept term $\beta_0$.
@@ -129,11 +129,13 @@ $$
 $$
 
 If we use the second formulation, then maximizing the likelihood  is equivalent to
+
 $$
 \begin{aligned}
-\min_{\beta_0,\beta}l(\beta_0,\beta)=\frac{1}{N}\sum_{i=1}^N\log(1+e^{-y_iz_i}).
+\min_{\beta_0,\beta}l(\beta_0,\beta)=\frac{1}{N}\sum_{i=1}^N[-y_iz_i+\log(1+e^{z_i})].
 \end{aligned}
 $$
+
 
 
 ## Derivation of the gradient and Hessian of the loss function
@@ -160,3 +162,5 @@ where $X=[x_1,\cdots,x_n]$ , $D=\text{diag}\{y_1^2\sigma_1,\cdots,y_n^2\sigma_n\
 
 1. Lecture notes 9 and 10 presented on this [course website.](https://wiki.illinois.edu/wiki/display/ie510/IE+510+Applied+Nonlinear+Programming+Home)
 2. The code for generating graphs can be found in [my git repo](https://github.com/Rothdyt/all_of_optimization/blob/master/_draft/Algorithms/pycode/LogisticRegression.py).
+3. Formulations of Logistic Regression can be found in this [thread](https://stats.stackexchange.com/questions/250937/which-loss-function-is-correct-for-logistic-regression/279698#279698).
+
